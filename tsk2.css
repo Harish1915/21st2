@@ -1,0 +1,118 @@
+body{
+    background-color: rgb(128, 70, 99);
+}
+
+h1 { 
+    color: aqua;
+}
+.container{
+    width: 500px;
+    position: absolute;
+    top: 80%;
+    left:500%;
+   
+}
+div{
+    width: 30px;
+    height: 60px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: fixed;
+    margin: 100px;
+    
+}
+.box1{
+    background-color: blueviolet;
+    animation: animate1  0.9s linear infinite;
+    top: 200px;
+    left: 60px;
+}
+.box2{
+    background-color: rgb(27, 185, 40);
+    animation: animate2  1.3s linear infinite;
+    top: 200px;
+    left: 95px;
+}
+.box3{
+    background-color: rgb(232, 47, 34);
+    animation: animate3 0.9s linear infinite;
+    top: 200px;
+    left: 130px;
+}
+.box4{
+    background-color: blueviolet;
+    animation: animate4  0.9s linear infinite;
+    top: 200px;
+    left: 165px;
+}
+.box5{
+    background-color: blueviolet;
+    animation: animate5  0.9s linear infinite;
+    top: 200px;
+    left: 200px;
+}
+.box6{
+    background-color: blueviolet;
+    animation: animate6  0.9s linear infinite;
+    top: 200px;
+    left: 235px;
+}
+.box7{
+    background-color: blueviolet;
+    animation: animate7  0.9s linear infinite;
+    top: 200px;
+    left: 270px;
+}
+@keyframes animate1{
+    50%{
+        background-color: gold;
+        top: 100px;
+        height: 160px;
+    }
+}
+@keyframes animate2{
+    50%{
+        background-color: palevioletred;
+        top: 50px;
+        height: 210px;
+    }
+}
+@keyframes animate3{
+    50%{
+        background-color: silver;
+        top: 10px;
+        height: 250px;
+    }
+}
+@keyframes animate4{
+    50%{
+        background-color: green;
+        top: 100px;
+        height: 160px;
+    }
+}
+@keyframes animate5{
+    50%{
+        background-color: rgb(205, 28, 211);
+        top: 50px;
+        height: 210px;
+    }
+}
+@keyframes animate6{
+    50%{
+        background-color: rgb(32, 55, 230);
+        top: 150px;
+        height: 110px;
+    }
+}
+@keyframes animate7{
+    50%{
+        background-color: rgb(27, 185, 25);
+        top: 50px;
+        height: 210px;
+    }
+}
+.container2{
+    margin-top: 280px;
+    margin-left: 130px;
+}
